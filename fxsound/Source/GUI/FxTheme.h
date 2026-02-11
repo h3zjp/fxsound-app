@@ -32,7 +32,7 @@ enum FxColor : int { WindowBackground, WidgetBackground, MenuBackground, Outline
 enum FxImage : int { DefaultLogo, HighlightedLogo, IconLogo,
 					 PowerOnButton, PowerOffButton, DonateButton, DonateButtonHover, MenuButton, MenuButtonHover,
 					 MinimizeButton, MinimizeButtonHover, MaximizeButton, MaximizeButtonHover, MinimizeWindowButton, MinimizeWindowButtonHover,
-				     ArrowNext, ArrowNextBW, ArrowPrev, ArrowPrevBW, DropDownArrow, DropDownArrowHover,
+				     ArrowNext, ArrowNextBW, ArrowPrev, ArrowPrevBW, ArrowUp, ArrowDown, DropDownArrow, DropDownArrowHover,
 	                 SliderThumb, SliderThumbBW, NumImages };
 
 class FxTheme : public LookAndFeel_V4
@@ -53,6 +53,7 @@ public:
 	void positionComboBoxText(ComboBox& box, Label& label) override;
 	void drawComboBox(Graphics& g, int width, int height, bool,
 						int, int, int, int, ComboBox& box) override;
+	void drawComboBoxTextWhenNothingSelected(Graphics&, ComboBox&, Label&) override;
 
 	void drawLinearSlider(Graphics& g, int x, int y, int width, int height,
 							float sliderPos, float minSliderPos, float maxSliderPos,

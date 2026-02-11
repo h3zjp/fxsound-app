@@ -27,8 +27,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "FxPresetSaveDialog.h"
 #include "../Utils/SysInfo/SysInfo.h"
 
-using namespace FxSound;
-
 class FxDeviceErrorMessage : public FxWindow
 {
 public:
@@ -1824,6 +1822,29 @@ void FxController::getWindowPosition(int& x, int& y)
 {
 	x = settings_.getInt("window_x", 0);
 	y = settings_.getInt("window_y", 0);
+}
+
+juce::Array<DeviceConfig> FxController::getDeviceConfigs()
+{
+	return DeviceConfig::loadDeviceConfigs(settings_, "device_configs");
+}
+
+void FxController::saveDeviceConfigs(const juce::Array<DeviceConfig>& device_configs)
+{
+	DeviceConfig::saveDeviceConfigs(settings_, "device_configs", device_configs);
+}
+
+bool FxController::isOutputDeviceConnected(const String& output_device_id)
+{
+	for (auto& output_device : active_output_devices_)
+	{
+		if (output_device_id == output_device.pwszID.c_str())
+		{
+			return true;
+		}
+    }
+
+	return false;
 }
 
 String FxController::getPreferredOutput()

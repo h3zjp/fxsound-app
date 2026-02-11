@@ -195,8 +195,8 @@ FxSettingsDialog::AudioSettingsPane::AudioSettingsPane() :
 
 	setFocusContainer(true);
 
-	endpoint_title_.setColour(Label::ColourIds::textColourId, getLookAndFeel().findColour(TextButton::textColourOnId));
-	endpoint_title_.setJustificationType(Justification::centredLeft);
+	output_preference_title_.setColour(Label::ColourIds::textColourId, getLookAndFeel().findColour(TextButton::textColourOnId));
+	output_preference_title_.setJustificationType(Justification::centredLeft);
 
 	equalizer_title_.setColour(Label::ColourIds::textColourId, getLookAndFeel().findColour(TextButton::textColourOnId));
 	equalizer_title_.setJustificationType(Justification::centredLeft);
@@ -216,19 +216,9 @@ FxSettingsDialog::AudioSettingsPane::AudioSettingsPane() :
 	left_label_.setJustificationType(Justification::centredLeft);
 	right_label_.setJustificationType(Justification::centredRight);
 
-	preferred_endpoint_.setMouseCursor(MouseCursor::PointingHandCursor);
-	preferred_endpoint_.setWantsKeyboardFocus(true);
-	preferred_endpoint_.setEnabled(true);
-	preferred_endpoint_.onChange = [this]() {
-			auto endpoints = FxModel::getModel().getOutputDevices();
-			auto id = preferred_endpoint_.getSelectedId();
-			if (id > 0 && id <= endpoints.size())
-			{
-				auto pref_device_id = endpoints[id - 1].pwszID;
-				auto pref_device_name = endpoints[id - 1].deviceFriendlyName;
-				FxController::getInstance().setOutput(id - 1);
-			}
-		};
+	output_preference_.setMouseCursor(MouseCursor::PointingHandCursor);
+	output_preference_.setWantsKeyboardFocus(true);
+	output_preference_.setEnabled(true);
 
 	auto& controller = FxController::getInstance();
 
@@ -314,8 +304,8 @@ FxSettingsDialog::AudioSettingsPane::AudioSettingsPane() :
 	setText();
 	updateEndpointList();
 
-	addAndMakeVisible(&endpoint_title_);
-	addAndMakeVisible(&preferred_endpoint_);
+	addAndMakeVisible(&output_preference_title_);
+	addAndMakeVisible(&output_preference_);
 	addAndMakeVisible(&equalizer_title_);
 	addAndMakeVisible(&equalizer_);
 	addAndMakeVisible(&master_gain_title_);
@@ -334,7 +324,6 @@ FxSettingsDialog::AudioSettingsPane::AudioSettingsPane() :
 
 FxSettingsDialog::AudioSettingsPane::~AudioSettingsPane()
 {
-	preferred_endpoint_.onChange = nullptr;
 	equalizer_.onChange = nullptr;
 	master_gain_slider_.onValueChange = nullptr;
 	normalizer_slider_.onValueChange = nullptr;
@@ -348,11 +337,12 @@ void FxSettingsDialog::AudioSettingsPane::resized()
 	auto bounds = getLocalBounds().withLeft(X_MARGIN).withTop(Y_MARGIN).withHeight(TITLE_HEIGHT);
 	title_.setBounds(bounds);
 
-	endpoint_title_.setBounds(X_MARGIN, ENDPOINT_Y, LABEL_WIDTH, COMBOBOX_HEIGHT);
-	auto width = getWidth() - ((X_MARGIN + 5) * 2) - LABEL_WIDTH;
-	preferred_endpoint_.setBounds(LABEL_WIDTH + X_MARGIN + 10, ENDPOINT_Y, width, COMBOBOX_HEIGHT);
+	output_preference_title_.setBounds(X_MARGIN, ENDPOINT_Y, LABEL_WIDTH, LABEL_HEIGHT);
+	int y = output_preference_title_.getBottom() + 8;
+	auto width = getWidth() - ((X_MARGIN + 5) * 2);
+	output_preference_.setBounds(X_MARGIN, y, width, OUTPUT_PREFERENCE_HEIGHT);
 
-	int y = preferred_endpoint_.getBottom() + 30;	
+	y = output_preference_.getBottom() + 30;
 	equalizer_title_.setBounds(X_MARGIN, y, LABEL_WIDTH, COMBOBOX_HEIGHT);
 	width = getWidth() - ((X_MARGIN + 5) * 2) - LABEL_WIDTH - GROUP_MARGIN;
 	equalizer_.setBounds(LABEL_WIDTH + X_MARGIN + 10, y, width, COMBOBOX_HEIGHT);
@@ -389,7 +379,13 @@ void FxSettingsDialog::AudioSettingsPane::resized()
 	auto group_y = equalizer_.getY() - GROUP_MARGIN;
 	auto group_width = equalizer_.getRight() - group_x + GROUP_MARGIN;
 	auto group_height = restore_defaults_button_.getBottom() - group_y + GROUP_MARGIN;
-	group_bounds_ = juce::Rectangle<float>(group_x, group_y, group_width, group_height);
+	audio_settings_bounds_ = juce::Rectangle<float>(group_x, group_y, group_width, group_height);
+
+	group_x = output_preference_title_.getX() - GROUP_MARGIN;
+	group_y = output_preference_title_.getY() - GROUP_MARGIN;
+	group_width = output_preference_.getRight() - group_x + GROUP_MARGIN;
+	group_height = output_preference_.getBottom() - group_y + GROUP_MARGIN;
+	output_preference_bounds_ = juce::Rectangle<float>(group_x, group_y, group_width, group_height);
 
 	y = restore_defaults_button_.getBottom();
 	resizeResetButton(X_MARGIN, y + 30);
@@ -400,11 +396,10 @@ void FxSettingsDialog::AudioSettingsPane::paint(Graphics& g)
 	g.fillAll(getLookAndFeel().findColour(ResizableWindow::backgroundColourId));
 
 	g.setFillType(FillType(Colour(FXCOLOR(DefaultFill)).withAlpha(0.2f)));
-	g.fillRoundedRectangle(group_bounds_, 8);
+	g.fillRoundedRectangle(audio_settings_bounds_, 8);
+	g.fillRoundedRectangle(output_preference_bounds_, 8);
 
 	setText();
-
-	updateEndpointText();
 
 	updateEqualizerBandsText();
 
@@ -415,9 +410,8 @@ void FxSettingsDialog::AudioSettingsPane::setText()
 {
 	auto& theme = dynamic_cast<FxTheme&>(LookAndFeel::getDefaultLookAndFeel());
 
-	endpoint_title_.setFont(theme.getNormalFont());
-	endpoint_title_.setText(TRANS("Preferred output:"), NotificationType::dontSendNotification);	
-	preferred_endpoint_.setTextWhenNothingSelected(TRANS("Select preferred output"));
+	output_preference_title_.setFont(theme.getNormalFont());
+	output_preference_title_.setText(TRANS("Output Device Preference"), NotificationType::dontSendNotification);	
 
 	equalizer_title_.setFont(theme.getNormalFont());
 	equalizer_title_.setText(TRANS("Equalizer:"), NotificationType::dontSendNotification);
@@ -525,47 +519,9 @@ void FxSettingsDialog::AudioSettingsPane::modelChanged(FxModel::Event model_even
 void FxSettingsDialog::AudioSettingsPane::updateEndpointList()
 {
 	auto& controller = FxController::getInstance();
-	auto endpoints = FxModel::getModel().getOutputDevices();
-	auto i = 1;
+	auto device_configs = controller.getDeviceConfigs();
+
 	auto pref_device_index = 0;
-
-	preferred_endpoint_.clear(NotificationType::dontSendNotification);
-	for (auto endpoint : endpoints)
-	{
-		preferred_endpoint_.addItem(endpoint.deviceFriendlyName.c_str(), i);
-		if (endpoint.deviceNumChannel == 1)
-		{
-			preferred_endpoint_.setItemEnabled(i, false);
-		}
-		i++;
-	}
-	preferred_endpoint_.addItem(TRANS("Newly connected output device"), i);
-	auto auto_index = i++;
-	preferred_endpoint_.addItem(TRANS("None"), i);
-	auto none_index = i;
-
-
-
-	preferred_endpoint_.setSelectedId(pref_device_index, NotificationType::dontSendNotification);
-}
-
-void FxSettingsDialog::AudioSettingsPane::updateEndpointText()
-{	
-	auto endpoints = FxModel::getModel().getOutputDevices();
-
-	auto id = preferred_endpoint_.getSelectedId();
-
-	auto count = preferred_endpoint_.getNumItems();
-	if (count == endpoints.size() + 2)
-	{
-		preferred_endpoint_.changeItemText(count-1, TRANS("Newly connected output device"));
-		preferred_endpoint_.changeItemText(count, TRANS("None"));
-	}
-
-	if (preferred_endpoint_.getSelectedId() == 0 && id != 0)
-	{
-		preferred_endpoint_.setSelectedId(id, juce::dontSendNotification);
-	}
 }
 
 void FxSettingsDialog::AudioSettingsPane::updateEqualizerBandsText()

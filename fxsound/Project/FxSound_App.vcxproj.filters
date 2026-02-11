@@ -297,6 +297,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Source\GUI\FxOutputPreference.cpp">
+      <Filter>FxSound\Source\GUI\Components</Filter>
+    </ClCompile>
     <ClCompile Include="..\Source\GUI\FxAudioSlider.cpp">
       <Filter>FxSound\Source\GUI\Components</Filter>
     </ClCompile>
@@ -377,6 +380,9 @@
     </ClCompile>
     <ClCompile Include="..\Source\Utils\SysInfo\SysInfo.cpp">
       <Filter>FxSound\Source\Utils\SysInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utils\Settings\DeviceConfig.cpp">
+      <Filter>FxSound\Source\Utils\Settings</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\Utils\Settings\Settings.cpp">
       <Filter>FxSound\Source\Utils\Settings</Filter>
@@ -1683,11 +1689,11 @@
     <ClCompile Include="..\JuceLibraryCode\include_juce_opengl.cpp">
       <Filter>JUCE Library Code</Filter>
     </ClCompile>
-    <ClCompile Include="..\Source\Utils\Settings\DeviceConfig.cpp">
-      <Filter>FxSound\Source\Utils\Settings</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Source\GUI\FxOutputPreference.h">
+      <Filter>FxSound\Source\GUI\Components</Filter>
+    </ClInclude>
     <ClInclude Include="..\Source\GUI\FxAudioSlider.h">
       <Filter>FxSound\Source\GUI\Components</Filter>
     </ClInclude>
@@ -1768,6 +1774,9 @@
     </ClInclude>
     <ClInclude Include="..\Source\Utils\SysInfo\SysInfo.h">
       <Filter>FxSound\Source\Utils\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utils\Settings\DeviceConfig.h">
+      <Filter>FxSound\Source\Utils\Settings</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Utils\Settings\Settings.h">
       <Filter>FxSound\Source\Utils\Settings</Filter>
@@ -3206,9 +3215,6 @@
     <ClInclude Include="..\JuceLibraryCode\JuceHeader.h">
       <Filter>JUCE Library Code</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Utils\Settings\DeviceConfig.h">
-      <Filter>FxSound\Source\Utils\Settings</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Fonts\Gilroy-Bold.ttf">
@@ -3219,6 +3225,18 @@
     </None>
     <None Include="..\Fonts\Gilroy-Semibold.ttf">
       <Filter>FxSound\Fonts</Filter>
+    </None>
+    <None Include="..\Images\arrow_down.svg">
+      <Filter>FxSound\Images</Filter>
+    </None>
+    <None Include="..\Images\arrow_down_blue.svg">
+      <Filter>FxSound\Images</Filter>
+    </None>
+    <None Include="..\Images\arrow_up.svg">
+      <Filter>FxSound\Images</Filter>
+    </None>
+    <None Include="..\Images\arrow_up_blue.svg">
+      <Filter>FxSound\Images</Filter>
     </None>
     <None Include="..\Images\logo-red.svg">
       <Filter>FxSound\Images</Filter>

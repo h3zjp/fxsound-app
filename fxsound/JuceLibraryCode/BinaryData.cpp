@@ -2852,8 +2852,68 @@ static const unsigned char temp_binary_data_2[] =
 
 const char* GilroySemibold_ttf = (const char*) temp_binary_data_2;
 
-//================== logo-red.svg ==================
+//================== arrow_down.svg ==================
 static const unsigned char temp_binary_data_3[] =
+"<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
+"<svg viewBox=\"0 0 6 5\" width=\"6\" height=\"5\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
+"  <polygon\r\n"
+"    fill=\"#E63462\"\r\n"
+"    fill-rule=\"nonzero\"\r\n"
+"    points=\"0.5 1.25 \r\n"
+"            5.5 1.25 \r\n"
+"            3.0 3.75\"\r\n"
+"  />\r\n"
+"</svg>";
+
+const char* arrow_down_svg = (const char*) temp_binary_data_3;
+
+//================== arrow_down_blue.svg ==================
+static const unsigned char temp_binary_data_4[] =
+"<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
+"<svg viewBox=\"0 0 6 5\" width=\"6\" height=\"5\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
+"  <polygon\r\n"
+"    fill=\"#23B6EB\"\r\n"
+"    fill-rule=\"nonzero\"\r\n"
+"    points=\"0.5 1.25 \r\n"
+"            5.5 1.25 \r\n"
+"            3.0 3.75\"\r\n"
+"  />\r\n"
+"</svg>";
+
+const char* arrow_down_blue_svg = (const char*) temp_binary_data_4;
+
+//================== arrow_up.svg ==================
+static const unsigned char temp_binary_data_5[] =
+"<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
+"<svg viewBox=\"0 0 6 5\" width=\"6\" height=\"5\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
+"  <polygon\r\n"
+"    fill=\"#E63462\"\r\n"
+"    fill-rule=\"nonzero\"\r\n"
+"    points=\"3.0 1.25 \r\n"
+"            0.5 3.75 \r\n"
+"            5.5 3.75\"\r\n"
+"  />\r\n"
+"</svg>\r\n";
+
+const char* arrow_up_svg = (const char*) temp_binary_data_5;
+
+//================== arrow_up_blue.svg ==================
+static const unsigned char temp_binary_data_6[] =
+"<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
+"<svg viewBox=\"0 0 6 5\" width=\"6\" height=\"5\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
+"  <polygon\r\n"
+"    fill=\"#23B6EB\"\r\n"
+"    fill-rule=\"nonzero\"\r\n"
+"    points=\"3.0 1.25 \r\n"
+"            0.5 3.75 \r\n"
+"            5.5 3.75\"\r\n"
+"  />\r\n"
+"</svg>";
+
+const char* arrow_up_blue_svg = (const char*) temp_binary_data_6;
+
+//================== logo-red.svg ==================
+static const unsigned char temp_binary_data_7[] =
 "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 526.19 75.15\"><defs><style>.cls-1{fill:#e63462;}</style></defs><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><rect class=\"cls-1\" x=\"80\" y=\"46.8\" width="
 "\"13.48\" height=\"27.36\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"60\" y=\"24.8\" width=\"13.48\" height=\"49.35\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"40\" y=\"5.79\" width=\"13.48\" height=\"68.36\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"20\" y=\""
 "24.8\" width=\"13.48\" height=\"49.35\" rx=\"2.83\"/><rect class=\"cls-1\" y=\"46.79\" width=\"13.48\" height=\"27.36\" rx=\"2.83\"/><path class=\"cls-1\" d=\"M118.51,9.36A2,2,0,0,1,119,7.85a2,2,0,0,1,1.37-.56h42.75q2.07,0,2.07,2.16v7.83a2.22,2.22,0,"
@@ -2885,10 +2945,10 @@ static const unsigned char temp_binary_data_3[] =
 "0,6.64,1.4,16.55,16.55,0,0,0,6.71-1.38,17.45,17.45,0,0,0,5.49-3.73,18.21,18.21,0,0,0,3.71-5.49A17.67,17.67,0,0,0,514,46v-.32a17.55,17.55,0,0,0-1.35-6.8A18.48,18.48,0,0,0,509,33.14a17.92,17.92,0,0,0-5.51-3.91,16,16,0,0,0-6.82-1.46A15.05,15.05,0,0,0,49"
 "0,29.23a17.29,17.29,0,0,0-5.28,3.91,18,18,0,0,0-3.51,5.69A18.65,18.65,0,0,0,480,45.63Z\"/></g></g></svg>";
 
-const char* logored_svg = (const char*) temp_binary_data_3;
+const char* logored_svg = (const char*) temp_binary_data_7;
 
 //================== logo-white.svg ==================
-static const unsigned char temp_binary_data_4[] =
+static const unsigned char temp_binary_data_8[] =
 "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 526.19 75.15\"><defs><style>.cls-1{fill:#fff;}</style></defs><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><rect class=\"cls-1\" x=\"80\" y=\"46.8\" width=\"1"
 "3.48\" height=\"27.36\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"60\" y=\"24.8\" width=\"13.48\" height=\"49.35\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"40\" y=\"5.79\" width=\"13.48\" height=\"68.36\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"20\" y=\"24"
 ".8\" width=\"13.48\" height=\"49.35\" rx=\"2.83\"/><rect class=\"cls-1\" y=\"46.79\" width=\"13.48\" height=\"27.36\" rx=\"2.83\"/><path class=\"cls-1\" d=\"M118.51,9.36A2,2,0,0,1,119,7.85a2,2,0,0,1,1.37-.56h42.75q2.07,0,2.07,2.16v7.83a2.22,2.22,0,0,"
@@ -2920,10 +2980,10 @@ static const unsigned char temp_binary_data_4[] =
 "6.64,1.4,16.55,16.55,0,0,0,6.71-1.38,17.45,17.45,0,0,0,5.49-3.73,18.21,18.21,0,0,0,3.71-5.49A17.67,17.67,0,0,0,514,46v-.32a17.55,17.55,0,0,0-1.35-6.8A18.48,18.48,0,0,0,509,33.14a17.92,17.92,0,0,0-5.51-3.91,16,16,0,0,0-6.82-1.46A15.05,15.05,0,0,0,490,"
 "29.23a17.29,17.29,0,0,0-5.28,3.91,18,18,0,0,0-3.51,5.69A18.65,18.65,0,0,0,480,45.63Z\"/></g></g></svg>";
 
-const char* logowhite_svg = (const char*) temp_binary_data_4;
+const char* logowhite_svg = (const char*) temp_binary_data_8;
 
 //================== maximize_black.svg ==================
-static const unsigned char temp_binary_data_5[] =
+static const unsigned char temp_binary_data_9[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"16px\" height=\"16px\" viewBox=\"0 0 16 16\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -2937,10 +2997,10 @@ static const unsigned char temp_binary_data_5[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* maximize_black_svg = (const char*) temp_binary_data_5;
+const char* maximize_black_svg = (const char*) temp_binary_data_9;
 
 //================== maximize_hover_blue.svg ==================
-static const unsigned char temp_binary_data_6[] =
+static const unsigned char temp_binary_data_10[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"16px\" height=\"16px\" viewBox=\"0 0 16 16\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -2954,10 +3014,10 @@ static const unsigned char temp_binary_data_6[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* maximize_hover_blue_svg = (const char*) temp_binary_data_6;
+const char* maximize_hover_blue_svg = (const char*) temp_binary_data_10;
 
 //================== menu_black.svg ==================
-static const unsigned char temp_binary_data_7[] =
+static const unsigned char temp_binary_data_11[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"14px\" height=\"10px\" viewBox=\"0 0 14 10\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -2970,10 +3030,10 @@ static const unsigned char temp_binary_data_7[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* menu_black_svg = (const char*) temp_binary_data_7;
+const char* menu_black_svg = (const char*) temp_binary_data_11;
 
 //================== menu_hover_blue.svg ==================
-static const unsigned char temp_binary_data_8[] =
+static const unsigned char temp_binary_data_12[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"14px\" height=\"10px\" viewBox=\"0 0 14 10\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -2986,10 +3046,10 @@ static const unsigned char temp_binary_data_8[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* menu_hover_blue_svg = (const char*) temp_binary_data_8;
+const char* menu_hover_blue_svg = (const char*) temp_binary_data_12;
 
 //================== min_window_black.svg ==================
-static const unsigned char temp_binary_data_9[] =
+static const unsigned char temp_binary_data_13[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"14px\" height=\"10px\" viewBox=\"0 0 14 10\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3002,10 +3062,10 @@ static const unsigned char temp_binary_data_9[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* min_window_black_svg = (const char*) temp_binary_data_9;
+const char* min_window_black_svg = (const char*) temp_binary_data_13;
 
 //================== min_window_hover_blue.svg ==================
-static const unsigned char temp_binary_data_10[] =
+static const unsigned char temp_binary_data_14[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"14px\" height=\"10px\" viewBox=\"0 0 14 10\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3018,10 +3078,10 @@ static const unsigned char temp_binary_data_10[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* min_window_hover_blue_svg = (const char*) temp_binary_data_10;
+const char* min_window_hover_blue_svg = (const char*) temp_binary_data_14;
 
 //================== logo-blue.svg ==================
-static const unsigned char temp_binary_data_11[] =
+static const unsigned char temp_binary_data_15[] =
 "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 526.19 75.15\"><defs><style>.cls-1{fill:#23B6EB;}</style></defs><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><rect class=\"cls-1\" x=\"80\" y=\"46.8\" width="
 "\"13.48\" height=\"27.36\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"60\" y=\"24.8\" width=\"13.48\" height=\"49.35\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"40\" y=\"5.79\" width=\"13.48\" height=\"68.36\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"20\" y=\""
 "24.8\" width=\"13.48\" height=\"49.35\" rx=\"2.83\"/><rect class=\"cls-1\" y=\"46.79\" width=\"13.48\" height=\"27.36\" rx=\"2.83\"/><path class=\"cls-1\" d=\"M118.51,9.36A2,2,0,0,1,119,7.85a2,2,0,0,1,1.37-.56h42.75q2.07,0,2.07,2.16v7.83a2.22,2.22,0,"
@@ -3053,10 +3113,10 @@ static const unsigned char temp_binary_data_11[] =
 "0,6.64,1.4,16.55,16.55,0,0,0,6.71-1.38,17.45,17.45,0,0,0,5.49-3.73,18.21,18.21,0,0,0,3.71-5.49A17.67,17.67,0,0,0,514,46v-.32a17.55,17.55,0,0,0-1.35-6.8A18.48,18.48,0,0,0,509,33.14a17.92,17.92,0,0,0-5.51-3.91,16,16,0,0,0-6.82-1.46A15.05,15.05,0,0,0,49"
 "0,29.23a17.29,17.29,0,0,0-5.28,3.91,18,18,0,0,0-3.51,5.69A18.65,18.65,0,0,0,480,45.63Z\"/></g></g></svg>";
 
-const char* logoblue_svg = (const char*) temp_binary_data_11;
+const char* logoblue_svg = (const char*) temp_binary_data_15;
 
 //================== donate_blue.svg ==================
-static const unsigned char temp_binary_data_12[] =
+static const unsigned char temp_binary_data_16[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"30px\" height=\"31px\" viewBox=\"0 0 30 31\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <g fill=\"none\" stroke=\"#23B6EB\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\r\n"
@@ -3068,10 +3128,10 @@ static const unsigned char temp_binary_data_12[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* donate_blue_svg = (const char*) temp_binary_data_12;
+const char* donate_blue_svg = (const char*) temp_binary_data_16;
 
 //================== donate_hover_blue.svg ==================
-static const unsigned char temp_binary_data_13[] =
+static const unsigned char temp_binary_data_17[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"30px\" height=\"31px\" viewBox=\"0 0 30 31\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <g fill=\"none\" stroke=\"#23B6EB\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\r\n"
@@ -3083,10 +3143,10 @@ static const unsigned char temp_binary_data_13[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* donate_hover_blue_svg = (const char*) temp_binary_data_13;
+const char* donate_hover_blue_svg = (const char*) temp_binary_data_17;
 
 //================== dropdown_arrow_hover_blue.svg ==================
-static const unsigned char temp_binary_data_14[] =
+static const unsigned char temp_binary_data_18[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"11px\" height=\"7px\" viewBox=\"0 0 11 7\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3099,10 +3159,10 @@ static const unsigned char temp_binary_data_14[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* dropdown_arrow_hover_blue_svg = (const char*) temp_binary_data_14;
+const char* dropdown_arrow_hover_blue_svg = (const char*) temp_binary_data_18;
 
 //================== arrow_next_blue.svg ==================
-static const unsigned char temp_binary_data_15[] =
+static const unsigned char temp_binary_data_19[] =
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
 "<svg viewBox=\"0 0 7 11\" width=\"7\" height=\"11\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" transform=\"matrix(0, -1, 1, 0, -0.096447, 11.303554)\">\r\n"
@@ -3112,10 +3172,10 @@ static const unsigned char temp_binary_data_15[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* arrow_next_blue_svg = (const char*) temp_binary_data_15;
+const char* arrow_next_blue_svg = (const char*) temp_binary_data_19;
 
 //================== arrow_prev_blue.svg ==================
-static const unsigned char temp_binary_data_16[] =
+static const unsigned char temp_binary_data_20[] =
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
 "<svg viewBox=\"0 0 7 11\" width=\"7\" height=\"11\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" transform=\"matrix(0, 1, -1, 0, 7.057106, -0.296447)\">\r\n"
@@ -3125,18 +3185,18 @@ static const unsigned char temp_binary_data_16[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* arrow_prev_blue_svg = (const char*) temp_binary_data_16;
+const char* arrow_prev_blue_svg = (const char*) temp_binary_data_20;
 
 //================== FxSound Black Bars.svg ==================
-static const unsigned char temp_binary_data_17[] =
+static const unsigned char temp_binary_data_21[] =
 "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 299.83 219.26\"><defs><style>.cls-1{fill:#000;}</style></defs><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><rect class=\"cls-1\" x=\"256.61\" y=\"131.52\" wi"
 "dth=\"43.22\" height=\"87.75\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"192.46\" y=\"60.97\" width=\"43.22\" height=\"158.29\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"128.31\" width=\"43.22\" height=\"219.26\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"64.1"
 "6\" y=\"60.96\" width=\"43.22\" height=\"158.3\" rx=\"2.83\"/><rect class=\"cls-1\" y=\"131.51\" width=\"43.22\" height=\"87.75\" rx=\"2.83\"/></g></g></svg>";
 
-const char* FxSound_Black_Bars_svg = (const char*) temp_binary_data_17;
+const char* FxSound_Black_Bars_svg = (const char*) temp_binary_data_21;
 
 //================== minimize_black.svg ==================
-static const unsigned char temp_binary_data_18[] =
+static const unsigned char temp_binary_data_22[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"18px\" height=\"18px\" viewBox=\"0 0 18 18\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3151,10 +3211,10 @@ static const unsigned char temp_binary_data_18[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* minimize_black_svg = (const char*) temp_binary_data_18;
+const char* minimize_black_svg = (const char*) temp_binary_data_22;
 
 //================== minimize_hover_blue.svg ==================
-static const unsigned char temp_binary_data_19[] =
+static const unsigned char temp_binary_data_23[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"18px\" height=\"18px\" viewBox=\"0 0 18 18\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3169,10 +3229,10 @@ static const unsigned char temp_binary_data_19[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* minimize_hover_blue_svg = (const char*) temp_binary_data_19;
+const char* minimize_hover_blue_svg = (const char*) temp_binary_data_23;
 
 //================== power_off_black.svg ==================
-static const unsigned char temp_binary_data_20[] =
+static const unsigned char temp_binary_data_24[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"30px\" height=\"31px\" viewBox=\"0 0 30 31\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->\r\n"
@@ -3198,10 +3258,10 @@ static const unsigned char temp_binary_data_20[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* power_off_black_svg = (const char*) temp_binary_data_20;
+const char* power_off_black_svg = (const char*) temp_binary_data_24;
 
 //================== power_on_blue.svg ==================
-static const unsigned char temp_binary_data_21[] =
+static const unsigned char temp_binary_data_25[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"30px\" height=\"31px\" viewBox=\"0 0 30 31\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->\r\n"
@@ -3227,10 +3287,10 @@ static const unsigned char temp_binary_data_21[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* power_on_blue_svg = (const char*) temp_binary_data_21;
+const char* power_on_blue_svg = (const char*) temp_binary_data_25;
 
 //================== Slider_Thumb_blue.svg ==================
-static const unsigned char temp_binary_data_22[] =
+static const unsigned char temp_binary_data_26[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 64 64\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <title>E5470804-7859-4DCC-BEE7-06AD729626EC</title>\r\n"
@@ -3290,10 +3350,10 @@ static const unsigned char temp_binary_data_22[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* Slider_Thumb_blue_svg = (const char*) temp_binary_data_22;
+const char* Slider_Thumb_blue_svg = (const char*) temp_binary_data_26;
 
 //================== logo-black.svg ==================
-static const unsigned char temp_binary_data_23[] =
+static const unsigned char temp_binary_data_27[] =
 "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 526.19 75.15\"><defs><style>.cls-1{fill:#000;}</style></defs><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><rect class=\"cls-1\" x=\"80\" y=\"46.8\" width=\"1"
 "3.48\" height=\"27.36\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"60\" y=\"24.8\" width=\"13.48\" height=\"49.35\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"40\" y=\"5.79\" width=\"13.48\" height=\"68.36\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"20\" y=\"24"
 ".8\" width=\"13.48\" height=\"49.35\" rx=\"2.83\"/><rect class=\"cls-1\" y=\"46.79\" width=\"13.48\" height=\"27.36\" rx=\"2.83\"/><path class=\"cls-1\" d=\"M118.51,9.36A2,2,0,0,1,119,7.85a2,2,0,0,1,1.37-.56h42.75q2.07,0,2.07,2.16v7.83a2.22,2.22,0,0,"
@@ -3325,10 +3385,10 @@ static const unsigned char temp_binary_data_23[] =
 "6.64,1.4,16.55,16.55,0,0,0,6.71-1.38,17.45,17.45,0,0,0,5.49-3.73,18.21,18.21,0,0,0,3.71-5.49A17.67,17.67,0,0,0,514,46v-.32a17.55,17.55,0,0,0-1.35-6.8A18.48,18.48,0,0,0,509,33.14a17.92,17.92,0,0,0-5.51-3.91,16,16,0,0,0-6.82-1.46A15.05,15.05,0,0,0,490,"
 "29.23a17.29,17.29,0,0,0-5.28,3.91,18,18,0,0,0-3.51,5.69A18.65,18.65,0,0,0,480,45.63Z\"/></g></g></svg>";
 
-const char* logoblack_svg = (const char*) temp_binary_data_23;
+const char* logoblack_svg = (const char*) temp_binary_data_27;
 
 //================== donate.svg ==================
-static const unsigned char temp_binary_data_24[] =
+static const unsigned char temp_binary_data_28[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"30px\" height=\"31px\" viewBox=\"0 0 30 31\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <g fill=\"none\" stroke=\"#E63462\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\r\n"
@@ -3340,10 +3400,10 @@ static const unsigned char temp_binary_data_24[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* donate_svg = (const char*) temp_binary_data_24;
+const char* donate_svg = (const char*) temp_binary_data_28;
 
 //================== donate_hover.svg ==================
-static const unsigned char temp_binary_data_25[] =
+static const unsigned char temp_binary_data_29[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"30px\" height=\"31px\" viewBox=\"0 0 30 31\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <g fill=\"none\" stroke=\"#E63462\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\r\n"
@@ -3355,10 +3415,10 @@ static const unsigned char temp_binary_data_25[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* donate_hover_svg = (const char*) temp_binary_data_25;
+const char* donate_hover_svg = (const char*) temp_binary_data_29;
 
 //================== speaker.svg ==================
-static const unsigned char temp_binary_data_26[] =
+static const unsigned char temp_binary_data_30[] =
 "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <g id=\"24 / basic / speaker\">\r\n"
 "    <!-- Speaker body with rounded corners -->\r\n"
@@ -3371,10 +3431,10 @@ static const unsigned char temp_binary_data_26[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* speaker_svg = (const char*) temp_binary_data_26;
+const char* speaker_svg = (const char*) temp_binary_data_30;
 
 //================== min_window.svg ==================
-static const unsigned char temp_binary_data_27[] =
+static const unsigned char temp_binary_data_31[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"14px\" height=\"10px\" viewBox=\"0 0 14 10\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3387,10 +3447,10 @@ static const unsigned char temp_binary_data_27[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* min_window_svg = (const char*) temp_binary_data_27;
+const char* min_window_svg = (const char*) temp_binary_data_31;
 
 //================== min_window_hover.svg ==================
-static const unsigned char temp_binary_data_28[] =
+static const unsigned char temp_binary_data_32[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"14px\" height=\"10px\" viewBox=\"0 0 14 10\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3403,10 +3463,10 @@ static const unsigned char temp_binary_data_28[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* min_window_hover_svg = (const char*) temp_binary_data_28;
+const char* min_window_hover_svg = (const char*) temp_binary_data_32;
 
 //================== arrow_next_bw.svg ==================
-static const unsigned char temp_binary_data_29[] =
+static const unsigned char temp_binary_data_33[] =
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
 "<svg viewBox=\"0 0 7 11\" width=\"7\" height=\"11\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" transform=\"matrix(0, -1, 1, 0, 0.1, 11.300002)\">\r\n"
@@ -3420,10 +3480,10 @@ static const unsigned char temp_binary_data_29[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* arrow_next_bw_svg = (const char*) temp_binary_data_29;
+const char* arrow_next_bw_svg = (const char*) temp_binary_data_33;
 
 //================== arrow_prev.svg ==================
-static const unsigned char temp_binary_data_30[] =
+static const unsigned char temp_binary_data_34[] =
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
 "<svg viewBox=\"0 0 7 11\" width=\"7\" height=\"11\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" transform=\"matrix(0, 1, -1, 0, 7.057106, -0.296447)\">\r\n"
@@ -3433,10 +3493,10 @@ static const unsigned char temp_binary_data_30[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* arrow_prev_svg = (const char*) temp_binary_data_30;
+const char* arrow_prev_svg = (const char*) temp_binary_data_34;
 
 //================== arrow_next.svg ==================
-static const unsigned char temp_binary_data_31[] =
+static const unsigned char temp_binary_data_35[] =
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
 "<svg viewBox=\"0 0 7 11\" width=\"7\" height=\"11\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" transform=\"matrix(0, -1, 1, 0, -0.096447, 11.303554)\">\r\n"
@@ -3446,10 +3506,10 @@ static const unsigned char temp_binary_data_31[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* arrow_next_svg = (const char*) temp_binary_data_31;
+const char* arrow_next_svg = (const char*) temp_binary_data_35;
 
 //================== arrow_prev_bw.svg ==================
-static const unsigned char temp_binary_data_32[] =
+static const unsigned char temp_binary_data_36[] =
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
 "<svg viewBox=\"0 0 7 11\" width=\"7\" height=\"11\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" transform=\"matrix(0, 1, -1, 0, 6.9, -0.3)\">\r\n"
@@ -3463,10 +3523,10 @@ static const unsigned char temp_binary_data_32[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* arrow_prev_bw_svg = (const char*) temp_binary_data_32;
+const char* arrow_prev_bw_svg = (const char*) temp_binary_data_36;
 
 //================== Button_OFF.svg ==================
-static const unsigned char temp_binary_data_33[] =
+static const unsigned char temp_binary_data_37[] =
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
 "<svg width=\"100px\" height=\"100px\" viewBox=\"0 0 100 100\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <title>Oval</title>\r\n"
@@ -3501,10 +3561,10 @@ static const unsigned char temp_binary_data_33[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* Button_OFF_svg = (const char*) temp_binary_data_33;
+const char* Button_OFF_svg = (const char*) temp_binary_data_37;
 
 //================== Button_ON.svg ==================
-static const unsigned char temp_binary_data_34[] =
+static const unsigned char temp_binary_data_38[] =
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
 "<svg width=\"102px\" height=\"102px\" viewBox=\"0 0 102 102\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "  <title>Oval</title>\r\n"
@@ -3550,10 +3610,10 @@ static const unsigned char temp_binary_data_34[] =
 "  </g>\r\n"
 "</svg>";
 
-const char* Button_ON_svg = (const char*) temp_binary_data_34;
+const char* Button_ON_svg = (const char*) temp_binary_data_38;
 
 //================== dropdown_arrow_bw.svg ==================
-static const unsigned char temp_binary_data_35[] =
+static const unsigned char temp_binary_data_39[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"11px\" height=\"7px\" viewBox=\"0 0 11 7\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <title>chevron-down</title>\r\n"
@@ -3568,10 +3628,10 @@ static const unsigned char temp_binary_data_35[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* dropdown_arrow_bw_svg = (const char*) temp_binary_data_35;
+const char* dropdown_arrow_bw_svg = (const char*) temp_binary_data_39;
 
 //================== dropdown_arrow_hover.svg ==================
-static const unsigned char temp_binary_data_36[] =
+static const unsigned char temp_binary_data_40[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"11px\" height=\"7px\" viewBox=\"0 0 11 7\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3584,10 +3644,10 @@ static const unsigned char temp_binary_data_36[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* dropdown_arrow_hover_svg = (const char*) temp_binary_data_36;
+const char* dropdown_arrow_hover_svg = (const char*) temp_binary_data_40;
 
 //================== FxSound Logo.svg ==================
-static const unsigned char temp_binary_data_37[] =
+static const unsigned char temp_binary_data_41[] =
 "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 526.19 75.15\"><defs><style>.cls-1{fill:#fff;}</style></defs><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><rect class=\"cls-1\" x=\"80\" y=\"46.8\" width=\"1"
 "3.48\" height=\"27.36\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"60\" y=\"24.8\" width=\"13.48\" height=\"49.35\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"40\" y=\"5.79\" width=\"13.48\" height=\"68.36\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"20\" y=\"24"
 ".8\" width=\"13.48\" height=\"49.35\" rx=\"2.83\"/><rect class=\"cls-1\" y=\"46.79\" width=\"13.48\" height=\"27.36\" rx=\"2.83\"/><path class=\"cls-1\" d=\"M118.51,9.36A2,2,0,0,1,119,7.85a2,2,0,0,1,1.37-.56h42.75q2.07,0,2.07,2.16v7.83a2.22,2.22,0,0,"
@@ -3619,18 +3679,18 @@ static const unsigned char temp_binary_data_37[] =
 "6.64,1.4,16.55,16.55,0,0,0,6.71-1.38,17.45,17.45,0,0,0,5.49-3.73,18.21,18.21,0,0,0,3.71-5.49A17.67,17.67,0,0,0,514,46v-.32a17.55,17.55,0,0,0-1.35-6.8A18.48,18.48,0,0,0,509,33.14a17.92,17.92,0,0,0-5.51-3.91,16,16,0,0,0-6.82-1.46A15.05,15.05,0,0,0,490,"
 "29.23a17.29,17.29,0,0,0-5.28,3.91,18,18,0,0,0-3.51,5.69A18.65,18.65,0,0,0,480,45.63Z\"/></g></g></svg>";
 
-const char* FxSound_Logo_svg = (const char*) temp_binary_data_37;
+const char* FxSound_Logo_svg = (const char*) temp_binary_data_41;
 
 //================== FxSound White Bars.svg ==================
-static const unsigned char temp_binary_data_38[] =
+static const unsigned char temp_binary_data_42[] =
 "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 299.83 219.26\"><defs><style>.cls-1{fill:#fff;}</style></defs><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><rect class=\"cls-1\" x=\"256.61\" y=\"131.52\" wi"
 "dth=\"43.22\" height=\"87.75\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"192.46\" y=\"60.97\" width=\"43.22\" height=\"158.29\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"128.31\" width=\"43.22\" height=\"219.26\" rx=\"2.83\"/><rect class=\"cls-1\" x=\"64.1"
 "6\" y=\"60.96\" width=\"43.22\" height=\"158.3\" rx=\"2.83\"/><rect class=\"cls-1\" y=\"131.51\" width=\"43.22\" height=\"87.75\" rx=\"2.83\"/></g></g></svg>";
 
-const char* FxSound_White_Bars_svg = (const char*) temp_binary_data_38;
+const char* FxSound_White_Bars_svg = (const char*) temp_binary_data_42;
 
 //================== fxsound.png ==================
-static const unsigned char temp_binary_data_39[] =
+static const unsigned char temp_binary_data_43[] =
 { 137,80,78,71,13,10,26,10,0,0,0,13,73,72,68,82,0,0,0,32,0,0,0,32,8,6,0,0,0,115,122,122,244,0,0,0,9,112,72,89,115,0,0,11,18,0,0,11,18,1,210,221,126,252,0,0,1,54,73,68,65,84,88,133,237,87,219,141,131,48,16,156,228,82,128,75,128,191,251,52,29,80,130,75,112,
 9,148,224,14,40,193,37,152,14,104,129,18,232,0,58,240,105,173,24,57,22,247,8,38,56,39,49,210,42,246,176,222,25,161,213,18,35,64,13,192,0,176,47,14,115,215,122,128,60,64,56,14,233,13,212,25,196,125,212,31,0,90,0,159,241,43,57,8,236,114,119,146,13,215,
 156,226,132,205,6,24,99,208,90,187,160,117,10,54,53,144,49,198,122,208,122,107,157,164,55,176,182,126,22,255,183,7,14,53,208,182,45,172,181,152,166,9,69,81,124,155,71,207,40,135,114,149,82,127,54,241,107,163,132,80,74,57,174,239,251,133,165,53,113,244,
@@ -3638,10 +3698,10 @@ static const unsigned char temp_binary_data_39[] =
 218,30,241,104,20,66,184,209,218,52,205,194,113,206,221,55,159,70,45,99,204,113,244,171,181,118,17,114,148,67,185,116,198,159,151,82,186,154,84,59,214,59,255,19,158,6,200,192,62,3,127,27,156,118,214,171,153,183,157,245,114,234,113,252,245,28,192,23,38,
 203,148,221,53,152,2,5,0,0,0,0,73,69,78,68,174,66,96,130,0,0 };
 
-const char* fxsound_png = (const char*) temp_binary_data_39;
+const char* fxsound_png = (const char*) temp_binary_data_43;
 
 //================== fxsound_large.png ==================
-static const unsigned char temp_binary_data_40[] =
+static const unsigned char temp_binary_data_44[] =
 { 137,80,78,71,13,10,26,10,0,0,0,13,73,72,68,82,0,0,1,0,0,0,1,0,8,6,0,0,0,92,114,168,102,0,0,0,9,112,72,89,115,0,0,11,18,0,0,11,18,1,210,221,126,252,0,0,12,184,73,68,65,84,120,156,237,221,63,114,219,72,22,199,241,39,143,115,195,39,16,148,109,38,204,9,200,
 57,129,184,225,70,226,132,27,137,115,2,107,79,192,73,55,162,125,2,81,39,32,149,109,70,234,4,164,194,137,200,116,35,110,61,108,195,69,211,164,248,7,221,64,3,239,251,169,234,82,149,45,129,141,70,247,15,221,0,72,94,73,92,18,17,201,68,164,43,34,215,34,146,
 110,21,160,105,150,91,229,77,68,166,34,50,23,145,117,44,251,17,67,0,244,68,164,227,6,125,22,65,125,128,208,230,46,12,94,68,100,92,103,107,215,21,0,58,232,239,220,207,164,166,58,0,49,88,187,16,120,174,35,12,170,12,0,29,232,3,17,185,23,166,244,192,62,186,
@@ -3689,10 +3749,10 @@ static const unsigned char temp_binary_data_40[] =
 224,206,253,228,105,66,88,86,124,20,255,115,29,31,201,95,87,0,108,211,16,232,184,107,5,60,80,4,11,230,238,138,254,75,221,223,195,17,67,0,108,75,92,8,104,24,92,187,165,66,202,146,1,13,165,83,250,162,188,185,65,175,131,63,142,59,100,34,242,63,172,144,216,
 108,214,152,214,2,0,0,0,0,73,69,78,68,174,66,96,130,0,0 };
 
-const char* fxsound_large_png = (const char*) temp_binary_data_40;
+const char* fxsound_large_png = (const char*) temp_binary_data_44;
 
 //================== maximize.svg ==================
-static const unsigned char temp_binary_data_41[] =
+static const unsigned char temp_binary_data_45[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"16px\" height=\"16px\" viewBox=\"0 0 16 16\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3706,10 +3766,10 @@ static const unsigned char temp_binary_data_41[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* maximize_svg = (const char*) temp_binary_data_41;
+const char* maximize_svg = (const char*) temp_binary_data_45;
 
 //================== maximize_hover.svg ==================
-static const unsigned char temp_binary_data_42[] =
+static const unsigned char temp_binary_data_46[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"16px\" height=\"16px\" viewBox=\"0 0 16 16\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3723,10 +3783,10 @@ static const unsigned char temp_binary_data_42[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* maximize_hover_svg = (const char*) temp_binary_data_42;
+const char* maximize_hover_svg = (const char*) temp_binary_data_46;
 
 //================== menu.svg ==================
-static const unsigned char temp_binary_data_43[] =
+static const unsigned char temp_binary_data_47[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"14px\" height=\"10px\" viewBox=\"0 0 14 10\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3739,10 +3799,10 @@ static const unsigned char temp_binary_data_43[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* menu_svg = (const char*) temp_binary_data_43;
+const char* menu_svg = (const char*) temp_binary_data_47;
 
 //================== menu_hover.svg ==================
-static const unsigned char temp_binary_data_44[] =
+static const unsigned char temp_binary_data_48[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"14px\" height=\"10px\" viewBox=\"0 0 14 10\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3755,10 +3815,10 @@ static const unsigned char temp_binary_data_44[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* menu_hover_svg = (const char*) temp_binary_data_44;
+const char* menu_hover_svg = (const char*) temp_binary_data_48;
 
 //================== minimize.svg ==================
-static const unsigned char temp_binary_data_45[] =
+static const unsigned char temp_binary_data_49[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"18px\" height=\"18px\" viewBox=\"0 0 18 18\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3773,10 +3833,10 @@ static const unsigned char temp_binary_data_45[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* minimize_svg = (const char*) temp_binary_data_45;
+const char* minimize_svg = (const char*) temp_binary_data_49;
 
 //================== minimize_hover.svg ==================
-static const unsigned char temp_binary_data_46[] =
+static const unsigned char temp_binary_data_50[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"18px\" height=\"18px\" viewBox=\"0 0 18 18\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->\r\n"
@@ -3791,10 +3851,10 @@ static const unsigned char temp_binary_data_46[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* minimize_hover_svg = (const char*) temp_binary_data_46;
+const char* minimize_hover_svg = (const char*) temp_binary_data_50;
 
 //================== power_off.svg ==================
-static const unsigned char temp_binary_data_47[] =
+static const unsigned char temp_binary_data_51[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"30px\" height=\"31px\" viewBox=\"0 0 30 31\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->\r\n"
@@ -3820,10 +3880,10 @@ static const unsigned char temp_binary_data_47[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* power_off_svg = (const char*) temp_binary_data_47;
+const char* power_off_svg = (const char*) temp_binary_data_51;
 
 //================== power_on.svg ==================
-static const unsigned char temp_binary_data_48[] =
+static const unsigned char temp_binary_data_52[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"30px\" height=\"31px\" viewBox=\"0 0 30 31\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->\r\n"
@@ -3849,10 +3909,10 @@ static const unsigned char temp_binary_data_48[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* power_on_svg = (const char*) temp_binary_data_48;
+const char* power_on_svg = (const char*) temp_binary_data_52;
 
 //================== question.svg ==================
-static const unsigned char temp_binary_data_49[] =
+static const unsigned char temp_binary_data_53[] =
 "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "<g id=\"24 / chatting / question\">\r\n"
 "<path id=\"Path\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 22C13.7246 22 15.387 21.562 16.8595 20.7418L21.0947 21.0947L20.7418 16.8595C21.562 15.387 22 13.7246 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 1"
@@ -3863,10 +3923,10 @@ static const unsigned char temp_binary_data_49[] =
 "</g>\r\n"
 "</svg>\r\n";
 
-const char* question_svg = (const char*) temp_binary_data_49;
+const char* question_svg = (const char*) temp_binary_data_53;
 
 //================== settings.svg ==================
-static const unsigned char temp_binary_data_50[] =
+static const unsigned char temp_binary_data_54[] =
 "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\r\n"
 "<g id=\"24 / basic / settings\">\r\n"
 "<path id=\"icon\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M18.6562 20.897L20.8733 18.6798L20.0925 15.843L20.4327 15.0305L23 13.5818V10.4464L20.44 8.99173L20.1055 8.18067L20.8961 5.34235L18.6774 3.12683L15.8403 3.90748L15.0296 3.56758L13.5808 "
@@ -3878,10 +3938,10 @@ static const unsigned char temp_binary_data_50[] =
 "</g>\r\n"
 "</svg>\r\n";
 
-const char* settings_svg = (const char*) temp_binary_data_50;
+const char* settings_svg = (const char*) temp_binary_data_54;
 
 //================== Slider_Thumb.svg ==================
-static const unsigned char temp_binary_data_51[] =
+static const unsigned char temp_binary_data_55[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 64 64\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <title>E5470804-7859-4DCC-BEE7-06AD729626EC</title>\r\n"
@@ -3941,10 +4001,10 @@ static const unsigned char temp_binary_data_51[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* Slider_Thumb_svg = (const char*) temp_binary_data_51;
+const char* Slider_Thumb_svg = (const char*) temp_binary_data_55;
 
 //================== Slider_Thumb_bw.svg ==================
-static const unsigned char temp_binary_data_52[] =
+static const unsigned char temp_binary_data_56[] =
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
 "<svg width=\"16px\" height=\"16px\" viewBox=\"0 0 16 16\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n"
 "    <title>oval</title>\r\n"
@@ -3997,10 +4057,10 @@ static const unsigned char temp_binary_data_52[] =
 "    </g>\r\n"
 "</svg>";
 
-const char* Slider_Thumb_bw_svg = (const char*) temp_binary_data_52;
+const char* Slider_Thumb_bw_svg = (const char*) temp_binary_data_56;
 
 //================== FxSound.ar.txt ==================
-static const unsigned char temp_binary_data_53[] =
+static const unsigned char temp_binary_data_57[] =
 { 108,97,110,103,117,97,103,101,58,32,65,114,97,98,105,99,13,10,99,111,117,110,116,114,105,101,115,58,32,69,71,32,115,97,13,10,13,10,34,79,111,112,115,33,32,84,104,101,114,101,92,39,115,32,97,110,32,105,115,115,117,101,32,119,105,116,104,32,121,111,117,
 114,32,112,108,97,121,98,97,99,107,32,100,101,118,105,99,101,32,115,101,116,116,105,110,103,115,46,92,114,92,110,66,101,102,111,114,101,32,119,101,32,99,97,110,32,103,101,116,32,115,116,97,114,116,101,100,44,32,112,108,101,97,115,101,32,103,111,32,116,
 104,114,111,117,103,104,32,116,104,101,32,34,32,61,32,34,216,185,216,176,216,177,216,167,33,32,217,138,216,168,216,175,217,136,32,216,163,217,134,32,217,135,217,134,216,167,217,131,32,217,133,216,180,217,131,217,132,216,169,32,217,129,217,138,32,216,
@@ -4221,10 +4281,10 @@ static const unsigned char temp_binary_data_53[] =
 32,79,110,32,84,111,112,34,32,61,32,34,216,175,216,167,216,166,217,133,216,167,217,139,32,217,129,217,138,32,216,167,217,132,216,163,216,185,217,132,217,137,34,13,10,34,84,104,101,109,101,34,32,61,32,34,216,167,217,132,216,179,217,133,216,169,34,13,10,
 34,68,97,114,107,34,32,61,32,34,216,175,216,167,217,131,217,134,34,13,10,34,76,105,103,104,116,34,32,61,32,34,217,129,216,167,216,170,216,173,34,13,10,0,0 };
 
-const char* FxSound_ar_txt = (const char*) temp_binary_data_53;
+const char* FxSound_ar_txt = (const char*) temp_binary_data_57;
 
 //================== FxSound.ba.txt ==================
-static const unsigned char temp_binary_data_54[] =
+static const unsigned char temp_binary_data_58[] =
 "language: Bosnian\r\n"
 "countries: ba\r\n"
 "\r\n"
@@ -4375,10 +4435,10 @@ static const unsigned char temp_binary_data_54[] =
 "\"Dark\" = \"Tamna\"\r\n"
 "\"Light\" = \"Svijetla\"";
 
-const char* FxSound_ba_txt = (const char*) temp_binary_data_54;
+const char* FxSound_ba_txt = (const char*) temp_binary_data_58;
 
 //================== FxSound.de.txt ==================
-static const unsigned char temp_binary_data_55[] =
+static const unsigned char temp_binary_data_59[] =
 "language: German\r\n"
 "countries: de at ch\r\n"
 "\r\n"
@@ -4533,10 +4593,10 @@ static const unsigned char temp_binary_data_55[] =
 "\"Dark\" = \"Dunkel\"\r\n"
 "\"Light\" = \"Hell\"";
 
-const char* FxSound_de_txt = (const char*) temp_binary_data_55;
+const char* FxSound_de_txt = (const char*) temp_binary_data_59;
 
 //================== FxSound.es.txt ==================
-static const unsigned char temp_binary_data_56[] =
+static const unsigned char temp_binary_data_60[] =
 "language: Spanish\r\n"
 "countries: ar co es mx\r\n"
 "\r\n"
@@ -4687,10 +4747,10 @@ static const unsigned char temp_binary_data_56[] =
 "\"Dark\" = \"Oscuro\"\r\n"
 "\"Light\" = \"Claro\"";
 
-const char* FxSound_es_txt = (const char*) temp_binary_data_56;
+const char* FxSound_es_txt = (const char*) temp_binary_data_60;
 
 //================== FxSound.fr.txt ==================
-static const unsigned char temp_binary_data_57[] =
+static const unsigned char temp_binary_data_61[] =
 "language: French\r\n"
 "countries: fr\r\n"
 "\r\n"
@@ -4846,10 +4906,10 @@ static const unsigned char temp_binary_data_57[] =
 "\"Dark\" = \"Sombre\"\r\n"
 "\"Light\" = \"Clair\"";
 
-const char* FxSound_fr_txt = (const char*) temp_binary_data_57;
+const char* FxSound_fr_txt = (const char*) temp_binary_data_61;
 
 //================== FxSound.hr.txt ==================
-static const unsigned char temp_binary_data_58[] =
+static const unsigned char temp_binary_data_62[] =
 "language: Croatian\r\n"
 "countries: HR\r\n"
 "\r\n"
@@ -4999,10 +5059,10 @@ static const unsigned char temp_binary_data_58[] =
 "\"Dark\" = \"Tamna\"\r\n"
 "\"Light\" = \"Svijetla\"";
 
-const char* FxSound_hr_txt = (const char*) temp_binary_data_58;
+const char* FxSound_hr_txt = (const char*) temp_binary_data_62;
 
 //================== fxsound.hu.txt ==================
-static const unsigned char temp_binary_data_59[] =
+static const unsigned char temp_binary_data_63[] =
 "language: Hungarian\r\n"
 "countries: hu\r\n"
 "\r\n"
@@ -5162,10 +5222,10 @@ static const unsigned char temp_binary_data_59[] =
 "\"Dark\" = \"S\xc3\xb6t\xc3\xa9t\"\r\n"
 "\"Light\" = \"Vil\xc3\xa1gos\"";
 
-const char* fxsound_hu_txt = (const char*) temp_binary_data_59;
+const char* fxsound_hu_txt = (const char*) temp_binary_data_63;
 
 //================== FxSound.id.txt ==================
-static const unsigned char temp_binary_data_60[] =
+static const unsigned char temp_binary_data_64[] =
 "language: Indonesian\r\n"
 "countries: id\r\n"
 "\r\n"
@@ -5315,10 +5375,10 @@ static const unsigned char temp_binary_data_60[] =
 "\"Dark\" = \"Gelap\"\r\n"
 "\"Light\" = \"Terang\"";
 
-const char* FxSound_id_txt = (const char*) temp_binary_data_60;
+const char* FxSound_id_txt = (const char*) temp_binary_data_64;
 
 //================== FxSound.ir.txt ==================
-static const unsigned char temp_binary_data_61[] =
+static const unsigned char temp_binary_data_65[] =
 { 108,97,110,103,117,97,103,101,58,32,91,217,190,216,167,216,177,216,179,219,140,93,13,10,99,111,117,110,116,114,105,101,115,58,32,91,73,82,44,32,70,65,93,13,10,13,10,34,79,111,112,115,33,32,84,104,101,114,101,92,39,115,32,97,110,32,105,115,115,117,101,
 32,119,105,116,104,32,121,111,117,114,32,112,108,97,121,98,97,99,107,32,100,101,118,105,99,101,32,115,101,116,116,105,110,103,115,46,92,114,92,110,66,101,102,111,114,101,32,119,101,32,99,97,110,32,103,101,116,32,115,116,97,114,116,101,100,44,32,112,108,
 101,97,115,101,32,103,111,32,116,104,114,111,117,103,104,32,116,104,101,32,34,32,61,32,34,216,167,217,136,217,135,33,32,217,133,216,180,218,169,217,132,219,140,32,216,175,216,177,32,216,170,217,134,216,184,219,140,217,133,216,167,216,170,32,216,175,216,
@@ -5533,10 +5593,10 @@ static const unsigned char temp_binary_data_61[] =
 216,175,216,177,32,216,168,216,167,217,132,216,167,34,13,10,34,84,104,101,109,101,34,32,61,32,34,216,170,217,133,34,13,10,34,68,97,114,107,34,32,61,32,34,216,170,219,140,216,177,217,135,34,13,10,34,76,105,103,104,116,34,32,61,32,34,216,177,217,136,216,
 180,217,134,34,0,0 };
 
-const char* FxSound_ir_txt = (const char*) temp_binary_data_61;
+const char* FxSound_ir_txt = (const char*) temp_binary_data_65;
 
 //================== FxSound.it.txt ==================
-static const unsigned char temp_binary_data_62[] =
+static const unsigned char temp_binary_data_66[] =
 "language: Italiano\r\n"
 "countries: it\r\n"
 "\r\n"
@@ -5689,10 +5749,10 @@ static const unsigned char temp_binary_data_62[] =
 "\"Dark\" = \"Scuro\"\r\n"
 "\"Light\" = \"Chiaro\"";
 
-const char* FxSound_it_txt = (const char*) temp_binary_data_62;
+const char* FxSound_it_txt = (const char*) temp_binary_data_66;
 
 //================== FxSound.ja.txt ==================
-static const unsigned char temp_binary_data_63[] =
+static const unsigned char temp_binary_data_67[] =
 { 108,97,110,103,117,97,103,101,58,32,74,97,112,97,110,101,115,101,13,10,99,111,117,110,116,114,105,101,115,58,32,106,97,13,10,13,10,34,79,111,112,115,33,32,84,104,101,114,101,92,39,115,32,97,110,32,105,115,115,117,101,32,119,105,116,104,32,121,111,117,
 114,32,112,108,97,121,98,97,99,107,32,100,101,118,105,99,101,32,115,101,116,116,105,110,103,115,46,92,114,92,110,66,101,102,111,114,101,32,119,101,32,99,97,110,32,103,101,116,32,115,116,97,114,116,101,100,44,32,112,108,101,97,115,101,32,103,111,32,116,
 104,114,111,117,103,104,32,116,104,101,32,34,32,61,32,34,227,129,138,227,129,163,227,129,168,239,188,129,229,134,141,231,148,159,227,131,135,227,131,144,227,130,164,227,130,185,227,129,174,232,168,173,229,174,154,227,129,171,229,149,143,233,161,140,227,
@@ -5893,10 +5953,10 @@ static const unsigned char temp_binary_data_63[] =
 231,164,186,34,13,10,34,84,104,101,109,101,34,32,61,32,34,227,131,134,227,131,188,227,131,158,34,13,10,34,68,97,114,107,34,32,61,32,34,227,131,128,227,131,188,227,130,175,34,13,10,34,76,105,103,104,116,34,32,61,32,34,227,131,169,227,130,164,227,131,136,
 34,0,0 };
 
-const char* FxSound_ja_txt = (const char*) temp_binary_data_63;
+const char* FxSound_ja_txt = (const char*) temp_binary_data_67;
 
 //================== FxSound.ko.txt ==================
-static const unsigned char temp_binary_data_64[] =
+static const unsigned char temp_binary_data_68[] =
 { 108,97,110,103,117,97,103,101,58,32,75,111,114,101,97,110,13,10,99,111,117,110,116,114,105,101,115,58,32,107,114,13,10,13,10,34,79,111,112,115,33,32,84,104,101,114,101,92,39,115,32,97,110,32,105,115,115,117,101,32,119,105,116,104,32,121,111,117,114,32,
 112,108,97,121,98,97,99,107,32,100,101,118,105,99,101,32,115,101,116,116,105,110,103,115,46,92,114,92,110,66,101,102,111,114,101,32,119,101,32,99,97,110,32,103,101,116,32,115,116,97,114,116,101,100,44,32,112,108,101,97,115,101,32,103,111,32,116,104,114,
 111,117,103,104,32,116,104,101,32,34,32,61,32,34,236,157,180,235,159,176,33,32,236,158,172,236,131,157,32,236,158,165,236,185,152,32,236,132,164,236,160,149,236,151,144,32,235,172,184,236,160,156,234,176,128,32,236,158,136,236,138,181,235,139,136,235,
@@ -6078,10 +6138,10 @@ static const unsigned char temp_binary_data_64[] =
 34,65,108,119,97,121,115,32,79,110,32,84,111,112,34,32,61,32,34,237,149,173,236,131,129,32,236,156,132,236,151,144,32,235,145,144,234,184,176,34,13,10,34,84,104,101,109,101,34,32,61,32,34,237,133,140,235,167,136,34,13,10,34,68,97,114,107,34,32,61,32,
 34,236,150,180,235,145,144,236,154,180,34,13,10,34,76,105,103,104,116,34,32,61,32,34,235,176,157,236,157,128,34,13,10,0,0 };
 
-const char* FxSound_ko_txt = (const char*) temp_binary_data_64;
+const char* FxSound_ko_txt = (const char*) temp_binary_data_68;
 
 //================== FxSound.nl.txt ==================
-static const unsigned char temp_binary_data_65[] =
+static const unsigned char temp_binary_data_69[] =
 "language: Dutch\r\n"
 "countries: nl be\r\n"
 "\r\n"
@@ -6231,10 +6291,10 @@ static const unsigned char temp_binary_data_65[] =
 "\"Dark\" = \"Donker\"\r\n"
 "\"Light\" = \"Licht\"";
 
-const char* FxSound_nl_txt = (const char*) temp_binary_data_65;
+const char* FxSound_nl_txt = (const char*) temp_binary_data_69;
 
 //================== FxSound.no.txt ==================
-static const unsigned char temp_binary_data_66[] =
+static const unsigned char temp_binary_data_70[] =
 "language: Norsk\r\n"
 "countries: no\r\n"
 "\r\n"
@@ -6384,10 +6444,10 @@ static const unsigned char temp_binary_data_66[] =
 "\"Dark\" = \"M\xc3\xb8rkt\"\r\n"
 "\"Light\" = \"Lyst\"";
 
-const char* FxSound_no_txt = (const char*) temp_binary_data_66;
+const char* FxSound_no_txt = (const char*) temp_binary_data_70;
 
 //================== FxSound.pl.txt ==================
-static const unsigned char temp_binary_data_67[] =
+static const unsigned char temp_binary_data_71[] =
 "language: Polish\r\n"
 "countries: pl\r\n"
 "\r\n"
@@ -6546,10 +6606,10 @@ static const unsigned char temp_binary_data_67[] =
 "\"Dark\" = \"Ciemny\"\r\n"
 "\"Light\" = \"Jasny\"";
 
-const char* FxSound_pl_txt = (const char*) temp_binary_data_67;
+const char* FxSound_pl_txt = (const char*) temp_binary_data_71;
 
 //================== FxSound.pt-br.txt ==================
-static const unsigned char temp_binary_data_68[] =
+static const unsigned char temp_binary_data_72[] =
 "language: Brazilian Portuguese \r\n"
 "countries: br\r\n"
 "\r\n"
@@ -6701,10 +6761,10 @@ static const unsigned char temp_binary_data_68[] =
 "\"Dark\" = \"Escuro\"\r\n"
 "\"Light\" = \"Claro\"";
 
-const char* FxSound_ptbr_txt = (const char*) temp_binary_data_68;
+const char* FxSound_ptbr_txt = (const char*) temp_binary_data_72;
 
 //================== FxSound.pt.txt ==================
-static const unsigned char temp_binary_data_69[] =
+static const unsigned char temp_binary_data_73[] =
 "language: Portuguese\r\n"
 "countries: pt\r\n"
 "\r\n"
@@ -6855,10 +6915,10 @@ static const unsigned char temp_binary_data_69[] =
 "\"Dark\" = \"Escuro\"\r\n"
 "\"Light\" = \"Claro\"";
 
-const char* FxSound_pt_txt = (const char*) temp_binary_data_69;
+const char* FxSound_pt_txt = (const char*) temp_binary_data_73;
 
 //================== FxSound.ro.txt ==================
-static const unsigned char temp_binary_data_70[] =
+static const unsigned char temp_binary_data_74[] =
 "language: Romanian\r\n"
 "countries: ro\r\n"
 "\r\n"
@@ -7014,10 +7074,10 @@ static const unsigned char temp_binary_data_70[] =
 "\"Dark\" = \"\xc3\x8entunecat\"\r\n"
 "\"Light\" = \"Luminos\"";
 
-const char* FxSound_ro_txt = (const char*) temp_binary_data_70;
+const char* FxSound_ro_txt = (const char*) temp_binary_data_74;
 
 //================== FxSound.ru.txt ==================
-static const unsigned char temp_binary_data_71[] =
+static const unsigned char temp_binary_data_75[] =
 { 108,97,110,103,117,97,103,101,58,32,82,117,115,115,105,97,110,13,10,99,111,117,110,116,114,105,101,115,58,32,114,117,13,10,13,10,34,79,111,112,115,33,32,84,104,101,114,101,92,39,115,32,97,110,32,105,115,115,117,101,32,119,105,116,104,32,121,111,117,114,
 32,112,108,97,121,98,97,99,107,32,100,101,118,105,99,101,32,115,101,116,116,105,110,103,115,46,92,114,92,110,66,101,102,111,114,101,32,119,101,32,99,97,110,32,103,101,116,32,115,116,97,114,116,101,100,44,32,112,108,101,97,115,101,32,103,111,32,116,104,
 114,111,117,103,104,32,116,104,101,32,34,32,61,32,34,208,158,208,185,33,32,208,146,208,190,208,183,208,189,208,184,208,186,208,187,208,184,32,208,191,209,128,208,190,208,177,208,187,208,181,208,188,209,139,32,209,129,32,209,131,209,129,209,130,209,128,
@@ -7258,10 +7318,10 @@ static const unsigned char temp_binary_data_71[] =
 208,178,208,187,208,181,208,189,208,184,209,143,34,13,10,34,65,108,119,97,121,115,32,79,110,32,84,111,112,34,32,61,32,34,208,146,209,129,208,181,208,179,208,180,208,176,32,209,129,208,178,208,181,209,128,209,133,209,131,34,13,10,34,84,104,101,109,101,
 34,32,61,32,34,208,162,208,181,208,188,208,176,34,13,10,34,68,97,114,107,34,32,61,32,34,208,162,209,145,208,188,208,189,208,176,209,143,34,13,10,34,76,105,103,104,116,34,32,61,32,34,208,161,208,178,208,181,209,130,208,187,208,176,209,143,34,13,10,0,0 };
 
-const char* FxSound_ru_txt = (const char*) temp_binary_data_71;
+const char* FxSound_ru_txt = (const char*) temp_binary_data_75;
 
 //================== FxSound.sv.txt ==================
-static const unsigned char temp_binary_data_72[] =
+static const unsigned char temp_binary_data_76[] =
 "language: Swedish\r\n"
 "countries: se\r\n"
 "\r\n"
@@ -7414,10 +7474,10 @@ static const unsigned char temp_binary_data_72[] =
 "\"Dark\" = \"M\xc3\xb6rkt\"\r\n"
 "\"Light\" = \"Ljust\"";
 
-const char* FxSound_sv_txt = (const char*) temp_binary_data_72;
+const char* FxSound_sv_txt = (const char*) temp_binary_data_76;
 
 //================== FxSound.th.txt ==================
-static const unsigned char temp_binary_data_73[] =
+static const unsigned char temp_binary_data_77[] =
 { 108,97,110,103,117,97,103,101,58,32,84,104,97,105,13,10,99,111,117,110,116,114,105,101,115,58,32,116,104,13,10,13,10,34,79,111,112,115,33,32,84,104,101,114,101,92,39,115,32,97,110,32,105,115,115,117,101,32,119,105,116,104,32,121,111,117,114,32,112,108,
 97,121,98,97,99,107,32,100,101,118,105,99,101,32,115,101,116,116,105,110,103,115,46,92,114,92,110,66,101,102,111,114,101,32,119,101,32,99,97,110,32,103,101,116,32,115,116,97,114,116,101,100,44,32,112,108,101,97,115,101,32,103,111,32,116,104,114,111,117,
 103,104,32,116,104,101,32,34,32,61,32,34,224,184,173,224,185,138,224,184,176,33,32,224,184,161,224,184,181,224,184,155,224,184,177,224,184,141,224,184,171,224,184,178,224,185,128,224,184,129,224,184,181,224,185,136,224,184,162,224,184,167,224,184,129,
@@ -7711,10 +7771,10 @@ static const unsigned char temp_binary_data_73[] =
 170,224,184,148,224,184,135,224,185,132,224,184,167,224,185,137,224,184,148,224,185,137,224,184,178,224,184,153,224,184,154,224,184,153,224,185,128,224,184,170,224,184,161,224,184,173,34,13,10,34,84,104,101,109,101,34,32,61,32,34,224,184,152,224,184,
 181,224,184,161,34,13,10,34,68,97,114,107,34,32,61,32,34,224,184,161,224,184,183,224,184,148,34,13,10,34,76,105,103,104,116,34,32,61,32,34,224,184,170,224,184,167,224,185,136,224,184,178,224,184,135,34,0,0 };
 
-const char* FxSound_th_txt = (const char*) temp_binary_data_73;
+const char* FxSound_th_txt = (const char*) temp_binary_data_77;
 
 //================== FxSound.tr.txt ==================
-static const unsigned char temp_binary_data_74[] =
+static const unsigned char temp_binary_data_78[] =
 "language: Turkish\r\n"
 "countries: tr\r\n"
 "\r\n"
@@ -7872,10 +7932,10 @@ static const unsigned char temp_binary_data_74[] =
 "\"Dark\" = \"Koyu\"\r\n"
 "\"Light\" = \"A\xc3\xa7\xc4\xb1k\"";
 
-const char* FxSound_tr_txt = (const char*) temp_binary_data_74;
+const char* FxSound_tr_txt = (const char*) temp_binary_data_78;
 
 //================== FxSound.txt ==================
-static const unsigned char temp_binary_data_75[] =
+static const unsigned char temp_binary_data_79[] =
 "language: [enter full name of the language here!]\r\n"
 "countries: [enter list of 2-character country codes here!]\r\n"
 "\r\n"
@@ -8024,10 +8084,10 @@ static const unsigned char temp_binary_data_75[] =
 "\"Dark\" = \"Dark\"\r\n"
 "\"Light\" = \"Light\"\r\n";
 
-const char* FxSound_txt = (const char*) temp_binary_data_75;
+const char* FxSound_txt = (const char*) temp_binary_data_79;
 
 //================== FxSound.ua.txt ==================
-static const unsigned char temp_binary_data_76[] =
+static const unsigned char temp_binary_data_80[] =
 { 108,97,110,103,117,97,103,101,58,32,85,107,114,97,105,110,105,97,110,13,10,99,111,117,110,116,114,105,101,115,58,32,117,97,13,10,13,10,34,79,111,112,115,33,32,84,104,101,114,101,39,115,32,97,110,32,105,115,115,117,101,32,119,105,116,104,32,121,111,117,
 114,32,112,108,97,121,98,97,99,107,32,100,101,118,105,99,101,32,115,101,116,116,105,110,103,115,46,92,114,92,110,66,101,102,111,114,101,32,119,101,32,99,97,110,32,103,101,116,32,115,116,97,114,116,101,100,44,32,112,108,101,97,115,101,32,103,111,32,116,
 104,114,111,117,103,104,32,116,104,101,32,34,32,61,32,34,208,158,208,185,33,32,208,146,208,184,208,189,208,184,208,186,208,187,208,184,32,208,191,209,128,208,190,208,177,208,187,208,181,208,188,208,184,32,208,183,32,208,189,208,176,208,187,208,176,209,
@@ -8262,10 +8322,10 @@ static const unsigned char temp_binary_data_76[] =
 13,10,34,65,108,119,97,121,115,32,79,110,32,84,111,112,34,32,61,32,34,208,151,208,176,208,178,208,182,208,180,208,184,32,208,183,208,178,208,181,209,128,209,133,209,131,34,13,10,34,84,104,101,109,101,34,32,61,32,34,208,162,208,181,208,188,208,176,34,
 13,10,34,68,97,114,107,34,32,61,32,34,208,162,208,181,208,188,208,189,208,176,34,13,10,34,76,105,103,104,116,34,32,61,32,34,208,161,208,178,209,150,209,130,208,187,208,176,34,0,0 };
 
-const char* FxSound_ua_txt = (const char*) temp_binary_data_76;
+const char* FxSound_ua_txt = (const char*) temp_binary_data_80;
 
 //================== FxSound.vi.txt ==================
-static const unsigned char temp_binary_data_77[] =
+static const unsigned char temp_binary_data_81[] =
 "language: Vietnamese\r\n"
 "countries: vn\r\n"
 "\r\n"
@@ -8441,10 +8501,10 @@ static const unsigned char temp_binary_data_77[] =
 "\"Dark\" = \"T\xe1\xbb\x91i\"\r\n"
 "\"Light\" = \"S\xc3\xa1ng\"";
 
-const char* FxSound_vi_txt = (const char*) temp_binary_data_77;
+const char* FxSound_vi_txt = (const char*) temp_binary_data_81;
 
 //================== FxSound.zh-CN.txt ==================
-static const unsigned char temp_binary_data_78[] =
+static const unsigned char temp_binary_data_82[] =
 { 108,97,110,103,117,97,103,101,58,32,67,104,105,110,101,115,101,32,40,83,105,109,112,108,105,102,105,101,100,41,13,10,99,111,117,110,116,114,105,101,115,58,32,99,110,32,115,103,13,10,34,79,111,112,115,33,32,84,104,101,114,101,92,39,115,32,97,110,32,105,
 115,115,117,101,32,119,105,116,104,32,121,111,117,114,32,112,108,97,121,98,97,99,107,32,100,101,118,105,99,101,32,115,101,116,116,105,110,103,115,46,92,114,92,110,66,101,102,111,114,101,32,119,101,32,99,97,110,32,103,101,116,32,115,116,97,114,116,101,
 100,44,32,112,108,101,97,115,101,32,103,111,32,116,104,114,111,117,103,104,32,116,104,101,32,34,32,61,32,34,229,147,142,229,145,128,239,188,129,230,130,168,231,154,132,230,146,173,230,148,190,232,174,190,229,164,135,232,174,190,231,189,174,230,156,137,
@@ -8598,10 +8658,10 @@ static const unsigned char temp_binary_data_78[] =
 34,13,10,34,65,108,119,97,121,115,32,79,110,32,84,111,112,34,32,61,32,34,229,167,139,231,187,136,231,189,174,233,161,182,34,13,10,34,84,104,101,109,101,34,32,61,32,34,228,184,187,233,162,152,34,13,10,34,68,97,114,107,34,32,61,32,34,230,183,177,232,137,
 178,34,13,10,34,76,105,103,104,116,34,32,61,32,34,230,181,133,232,137,178,34,0,0 };
 
-const char* FxSound_zhCN_txt = (const char*) temp_binary_data_78;
+const char* FxSound_zhCN_txt = (const char*) temp_binary_data_82;
 
 //================== FxSound.zh-TW.txt ==================
-static const unsigned char temp_binary_data_79[] =
+static const unsigned char temp_binary_data_83[] =
 { 108,97,110,103,117,97,103,101,58,32,67,104,105,110,101,115,101,32,40,84,114,97,100,105,116,105,111,110,97,108,41,13,10,99,111,117,110,116,114,105,101,115,58,32,84,97,105,119,97,110,13,10,34,79,111,112,115,33,32,84,104,101,114,101,92,39,115,32,97,110,
 32,105,115,115,117,101,32,119,105,116,104,32,121,111,117,114,32,112,108,97,121,98,97,99,107,32,100,101,118,105,99,101,32,115,101,116,116,105,110,103,115,46,92,114,92,110,66,101,102,111,114,101,32,119,101,32,99,97,110,32,103,101,116,32,115,116,97,114,
 116,101,100,44,32,112,108,101,97,115,101,32,103,111,32,116,104,114,111,117,103,104,32,116,104,101,32,34,32,61,32,34,229,147,142,229,145,128,239,188,129,230,130,168,231,154,132,230,146,173,230,148,190,232,163,157,231,189,174,232,168,173,229,174,154,230,
@@ -8757,7 +8817,7 @@ static const unsigned char temp_binary_data_79[] =
 116,111,109,97,116,105,99,32,117,112,100,97,116,101,115,34,32,61,32,34,232,135,170,229,139,149,230,155,180,230,150,176,34,13,10,34,65,108,119,97,121,115,32,79,110,32,84,111,112,34,32,61,32,34,230,176,184,233,129,160,231,189,174,233,160,130,34,13,10,34,
 84,104,101,109,101,34,32,61,32,34,228,184,187,233,161,140,34,13,10,34,68,97,114,107,34,32,61,32,34,230,183,177,232,137,178,34,13,10,34,76,105,103,104,116,34,32,61,32,34,230,183,186,232,137,178,34,0,0 };
 
-const char* FxSound_zhTW_txt = (const char*) temp_binary_data_79;
+const char* FxSound_zhTW_txt = (const char*) temp_binary_data_83;
 
 
 const char* getNamedResource (const char* resourceNameUTF8, int& numBytes);
@@ -8774,6 +8834,10 @@ const char* getNamedResource (const char* resourceNameUTF8, int& numBytes)
         case 0x7b153d3e:  numBytes = 83456; return GilroyBold_ttf;
         case 0x9fd3b571:  numBytes = 84300; return GilroyRegular_ttf;
         case 0xf4a365ac:  numBytes = 83948; return GilroySemibold_ttf;
+        case 0xb04528bd:  numBytes = 259; return arrow_down_svg;
+        case 0x5de58646:  numBytes = 259; return arrow_down_blue_svg;
+        case 0x03a1d3b6:  numBytes = 261; return arrow_up_svg;
+        case 0x84c9ceed:  numBytes = 259; return arrow_up_blue_svg;
         case 0xaf0c89ab:  numBytes = 7257; return logored_svg;
         case 0x668fe803:  numBytes = 7254; return logowhite_svg;
         case 0x38983471:  numBytes = 826; return maximize_black_svg;
@@ -8863,6 +8927,10 @@ const char* namedResourceList[] =
     "GilroyBold_ttf",
     "GilroyRegular_ttf",
     "GilroySemibold_ttf",
+    "arrow_down_svg",
+    "arrow_down_blue_svg",
+    "arrow_up_svg",
+    "arrow_up_blue_svg",
     "logored_svg",
     "logowhite_svg",
     "maximize_black_svg",
@@ -8947,6 +9015,10 @@ const char* originalFilenames[] =
     "Gilroy-Bold.ttf",
     "Gilroy-Regular.ttf",
     "Gilroy-Semibold.ttf",
+    "arrow_down.svg",
+    "arrow_down_blue.svg",
+    "arrow_up.svg",
+    "arrow_up_blue.svg",
     "logo-red.svg",
     "logo-white.svg",
     "maximize_black.svg",

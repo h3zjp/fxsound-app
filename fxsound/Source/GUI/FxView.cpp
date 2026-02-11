@@ -161,7 +161,7 @@ void FxView::modelChanged(FxModel::Event model_event)
 			{
 				name = name + L" *";
 			}
-			preset_list_.addItem(name, i+1);						
+			preset_list_.addItem(name, i+1);
 		}
 
 		preset_list_.setSelectedId(FxModel::getModel().getSelectedPreset() + 1, NotificationType::dontSendNotification);

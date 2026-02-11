@@ -31,6 +31,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "DfxDsp.h"
 #include <wtsapi32.h>
 
+using namespace FxSound;
+
 class FxMainWindow;
 class FxWindow;
 class FxSystemTrayView;
@@ -120,6 +122,9 @@ public:
 	bool setHotkey(const String& command, int new_mod, int vk);
 	bool isValidHotkey(int mod, int new_vk);
 
+	juce::Array<DeviceConfig> getDeviceConfigs();
+    void saveDeviceConfigs(const juce::Array<DeviceConfig>& device_configs);
+	bool isOutputDeviceConnected(const String& output_device_id);
 	String getPreferredOutput();
 
 	FxThemeMode getThemeMode();

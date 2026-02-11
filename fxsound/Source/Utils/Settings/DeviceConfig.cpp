@@ -33,8 +33,11 @@ namespace FxSound
 
         for (auto sound_device : sound_devices)
         {
-            DeviceConfig device_config = { sound_device.pwszID.c_str() , sound_device.deviceFriendlyName.c_str(), "" };
-            device_configs.add(device_config);
+            if (sound_device.isRealDevice)
+            {
+                DeviceConfig device_config = { sound_device.pwszID.c_str() , sound_device.deviceFriendlyName.c_str(), "" };
+                device_configs.add(device_config);
+            }            
         }
 
         saveDeviceConfigs(settings, "device_configs", device_configs);
@@ -47,6 +50,9 @@ namespace FxSound
         bool save_config = false;
         for (auto sound_device : sound_devices)
         {
+            if (!sound_device.isRealDevice)
+                continue;
+
             bool device_found = false;
             for (auto device_config : device_configs)
             {

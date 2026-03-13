@@ -412,7 +412,7 @@ void FxEqualizer::FxEqSlider::setGainValue(float value)
 {
     setValue(value, NotificationType::dontSendNotification);
 
-    auto text = String::formatted("%+.0f", value);
+    auto text = String::formatted(value == 0.0 ? "%.0f" : "%+.0f", value);
     gain_label_.setText(text, NotificationType::dontSendNotification);
 
     auto y = getPositionOfValue(value) - (FxTheme::SLIDER_THUMB_RADIUS *3);
@@ -449,7 +449,7 @@ void FxEqualizer::FxEqSlider::valueChanged()
     {
         FxController::getInstance().setEqBandBoostCut(band_, value);
 
-        auto text = String::formatted("%+.0f", value);
+        auto text = String::formatted(value == 0.0 ? "%.0f" : "%+.0f", value);
         gain_label_.setText(text, NotificationType::dontSendNotification);
 
         auto y = getPositionOfValue(value) - (FxTheme::SLIDER_THUMB_RADIUS*3);

@@ -40,6 +40,9 @@ FxOutputDeviceRow::FxOutputDeviceRow(FxOutputPreferenceListModel& model) : up_bu
         output_preference_list_model_.moveRowDown(row_index_);
         };
 
+    preset_list_.setColour(ComboBox::ColourIds::backgroundColourId, Colour(FXCOLOR(WidgetBackground)).withAlpha(1.0f));
+    preset_list_.setColour(ComboBox::ColourIds::outlineColourId, Colour(FXCOLOR(DefaultText)).withAlpha(0.5f));
+    preset_list_.setColour(ComboBox::ColourIds::focusedOutlineColourId, Colour(FXCOLOR(DefaultText)).withAlpha(1.0f));
     preset_list_.setWantsKeyboardFocus(true);
     preset_list_.setJustificationType(Justification::centredLeft);   
     preset_list_.onChange = [this]() {

@@ -69,7 +69,7 @@ void FxTheme::init()
 	setColour(ComboBox::ColourIds::arrowColourId, Colour(FXCOLOR(ImageButton)).withAlpha(1.0f));
 	setColour(ComboBox::ColourIds::backgroundColourId, Colour(FXCOLOR(ComboBoxBackground)).withAlpha(1.0f));
 	setColour(ComboBox::ColourIds::outlineColourId, Colour(FXCOLOR(ComboBoxBackground)).withAlpha(1.0f));
-	setColour(ComboBox::ColourIds::focusedOutlineColourId, Colour(FXCOLOR(ComboBoxBackground)).withAlpha(1.0f));
+	setColour(ComboBox::ColourIds::focusedOutlineColourId, Colour(FXCOLOR(SliderHighlight)).withAlpha(0.2f));
 	setColour(ComboBox::ColourIds::textColourId, Colour(FXCOLOR(DefaultText)).withAlpha(1.0f));
 	setColour(TextEditor::ColourIds::backgroundColourId, Colour(FXCOLOR(DefaultFill)).withAlpha(1.0f));
 	setColour(TextEditor::ColourIds::outlineColourId, Colour(FXCOLOR(DefaultFill)).withAlpha(1.0f));
@@ -135,7 +135,7 @@ void FxTheme::drawComboBox(Graphics& g, int width, int height, bool,
 
 	if (box.hasKeyboardFocus(true))
 	{
-		g.setColour(Colour(FXCOLOR(SliderHighlight)).withAlpha(0.2f));
+		g.setColour(box.findColour(ComboBox::focusedOutlineColourId));
 		g.drawRoundedRectangle(boxBounds.toFloat().reduced(0.5f, 0.5f), cornerSize, 1.0f);
 	}
 	else

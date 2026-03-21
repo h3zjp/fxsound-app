@@ -550,15 +550,15 @@ Point<int> FxController::getSystemTrayWindowPosition(int width, int height)
 
 bool FxController::exit()
 {
-	if (FxModel::getModel().getPowerState())
-	{
-		audio_passthru_->restoreDefaultPlaybackDevice();
-	}
-
 	if (FxModel::getModel().isPresetModified())
 	{
 		FxPresetSaveDialog preset_save_dialog;
 		preset_save_dialog.runModalLoop();
+	}
+
+	if (FxModel::getModel().getPowerState())
+	{
+		audio_passthru_->restoreDefaultPlaybackDevice();
 	}
 	
 	JUCEApplication::getInstance()->systemRequestedQuit();
